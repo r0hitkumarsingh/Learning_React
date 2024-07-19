@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-// import '/src/Style.css';
 import ProductList from './components/productList.jsx';
 import Cart from './components/Cart.jsx';
 
