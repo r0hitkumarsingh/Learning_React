@@ -1,6 +1,5 @@
 {
     "recommendations": [
-        "bradlc.vscode-tailwindcss",
-        "runningcoder.react-snippets"
+        "bradlc.vscode-tailwindcss"
     ]
 }
