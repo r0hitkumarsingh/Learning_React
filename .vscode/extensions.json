@@ -1,7 +1,6 @@
 {
     "recommendations": [
         "bradlc.vscode-tailwindcss",
-        "runningcoder.react-snippets",
-        "burkeholland.simple-react-snippets"
+        "runningcoder.react-snippets"
     ]
 }
