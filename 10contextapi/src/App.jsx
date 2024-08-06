@@ -1,11 +1,19 @@
-import { useState } from 'react'
+import React from 'react';
+import UserProvider from './Components2/UserProvider';
+import UserProfile from './Components2/UserProfile';
+import UserActions from './Components2/UserActions';
 
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
-   <h1>hello</h1>
+    <UserProvider>
+      <div>
+        <UserProfile />
+        <UserActions />
+      </div>
+    </UserProvider>
   )
 }
 
