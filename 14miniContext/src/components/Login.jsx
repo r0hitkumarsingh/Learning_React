@@ -1,10 +1,25 @@
 import React,{ useState} from 'react'
 
 function Login() {
+
+    const [username, setUsername] = useState('')
+    const [password, setPassword] = useState('')
+
+    const handleSubmit = () => {
+
+    }
+
   return (
     <div>
         <h2>Login</h2>
-        i<nput type='text' place />
+        
+        <input type='text' 
+        value={username}
+        onChange={(e) => setUsername(e.target.value)}
+        placeholder='username' />
+
+        <input type="text" placeholder='password' />
+        <button onClick={handleSubmit}>Submit</button>
     </div>
   )
 }
