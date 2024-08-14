@@ -15,6 +15,7 @@ function App() {
     setThemeMode("dark")
   }
 
+// actual change in Theme
 
   useEffect(() => {
     document.querySelector('html').classList.remove("light", "dark")
@@ -31,7 +32,7 @@ function App() {
           <ThemeBtn />
 
           <div className="w-full max-w-sm mx-auto"></div>
-          {/* <Card /> */}
+          <Card />
 
         </div>
       </div>
